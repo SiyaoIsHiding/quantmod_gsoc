@@ -23,9 +23,9 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck, any::atime, any::git2r, any::Rcpp
+          extra-packages: any::rcmdcheck, any::atime, any::git2r, any::Rcpp, any::binsegRcpp
           needs: check
 
-      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.12
+      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.13
         with:
           error-on: '"error"'
