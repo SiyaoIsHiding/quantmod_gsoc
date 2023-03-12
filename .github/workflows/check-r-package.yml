@@ -26,6 +26,6 @@ jobs:
           extra-packages: any::rcmdcheck, any::atime, any::git2r, any::Rcpp
           needs: check
 
-      - uses: SiyaoIsHiding/R_GA_GSOC@0.0.6
+      - uses: SiyaoIsHiding/R_GA_GSOC@0.0.7
         with:
           error-on: '"error"'
