@@ -28,6 +28,6 @@ jobs:
           extra-packages: any::rcmdcheck, any::atime, any::git2r, any::quantmod
           needs: check
 
-      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.18
+      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.19
         with:
           error-on: '"error"'
